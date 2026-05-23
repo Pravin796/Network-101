@@ -1,8 +1,8 @@
 #!/bin/bash
 
-export REGION_1=us-central1
+export REGION_1=us-east4
 export REGION_2=europe-west1
-export REGION_3=asia-east1
+export REGION_3=europe-west4
 
 gcloud compute networks create taw-custom-network --subnet-mode custom
 
